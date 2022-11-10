@@ -682,10 +682,11 @@ section{
 
 @media (max-width:991px){
 
-    .contact {
+    .contact-element {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 20px;
     }
 
     .contact img {
