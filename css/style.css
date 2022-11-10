@@ -91,6 +91,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    display: none;
 }
 
 .header .header-2 .logo{
