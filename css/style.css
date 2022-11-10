@@ -673,6 +673,10 @@ section{
     height:10rem;
 }
 
+.container-about img {
+    width: 100%;
+}
+
 
 
 
