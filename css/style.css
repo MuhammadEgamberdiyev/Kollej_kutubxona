@@ -555,6 +555,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 130px;
 }
 
 .contact .contact-element img {
