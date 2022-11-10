@@ -682,6 +682,12 @@ section{
 
 @media (max-width:991px){
 
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contact img {
         display: none;
     }
