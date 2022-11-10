@@ -555,11 +555,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-}
-
-.contact .contact-element img {
-    width: 100%;
 }
 
 .contact .contact-element .contact-inputs {
@@ -688,17 +683,6 @@ section{
 /* media queries  */
 
 @media (max-width:991px){
-
-    .contact-element {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .contact img {
-        /* display: none;? */
-    }
 
     .contact .contact-element .contact-inputs {
         width: 95%;
