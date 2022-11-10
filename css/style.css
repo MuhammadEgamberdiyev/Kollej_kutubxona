@@ -557,10 +557,11 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .contact .contact-element .contact-contents input {
-    width: 40%;
+    width: 90%;
     height: 25px;
     border: 2px solid black;
 }
