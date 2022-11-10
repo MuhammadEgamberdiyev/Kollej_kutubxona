@@ -562,7 +562,7 @@ section{
 .contact .contact-element .contact-contents input {
     width: 40%;
     height: 25px;
-    border: 1px solid var(--border);
+    border: 2px solid black;
 }
 
 
