@@ -427,6 +427,8 @@ section{
 
 .deal .deal-content-and-images {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .deal .deal-content-and-images .content{
