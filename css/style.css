@@ -566,8 +566,8 @@ section{
 
 .contact .contact-element .contact-contents .Ism {
     width: 45%;
-    height: 25px;
-    border: 2px solid black;
+    height: 50px;
+    border-bottom: 2px solid black;
 }
 
 
