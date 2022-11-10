@@ -420,13 +420,13 @@ section{
     background: #fff;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 4rem;
 }
 
 .deal .deal-content-and-images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
