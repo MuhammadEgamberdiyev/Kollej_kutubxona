@@ -582,15 +582,11 @@ section{
     align-items: center;
 }
 
-.contact .contact-element .contact-contents .bottom-inputs .Email {
+.contact .contact-element .contact-contents .bottom-inputs input {
     width: 97%;
     padding: 10px 20px;
     border-bottom: 2px solid black;
     border-radius: 2px;
-}
-
-.contact .contact-element .contact-contents textarea {
-    border: 2px solid black;
 }
 
 
