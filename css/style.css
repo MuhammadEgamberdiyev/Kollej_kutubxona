@@ -682,12 +682,8 @@ section{
 
 @media (max-width:991px){
 
-    .contact {
-        width: 130vh;
-    }
-
-    .contact .contact-element {
-        flex-direction: column;
+    .contact img {
+        display: none;
     }
 
     .contact-inputs {
