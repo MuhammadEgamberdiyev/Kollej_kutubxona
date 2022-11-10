@@ -577,10 +577,13 @@ section{
 
 .contact .contact-element .contact-contents .bottom-inputs {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact .contact-element .contact-contents .bottom-inputs .Email {
-    width: 100%;
+    width: 90%;
     border-bottom: 2px solid black;
 }
 
