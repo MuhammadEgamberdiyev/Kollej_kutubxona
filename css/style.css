@@ -682,6 +682,10 @@ section{
 
 @media (max-width:991px){
 
+    .contact .contact-element {
+        flex-direction: column;
+    }
+
     html{
         font-size: 55%;
     }
