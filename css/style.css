@@ -189,6 +189,12 @@ section{
 
 }
 
+.top-navbar {
+    width: 100%;
+    padding: 5px;
+    background: var(--green);
+}
+
 .bottom-navbar{
     text-align: center;
     background:var(--green);
