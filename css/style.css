@@ -569,7 +569,7 @@ section{
     padding: 10px 20px;
     width: 100%;
     border-radius: 5px;
-    box-shadow: 2px 2px 14px rgba(0,0,0,.3);
+    box-shadow: 5px 5px 14px rgba(0,0,0,.3);
 }
 
 .contact .contact-element .contact-inputs textarea {
@@ -578,7 +578,7 @@ section{
     border-bottom: 2px solid black;
     border-radius: 5px;
     padding: 10px 20px;
-    box-shadow: 2px 2px 14px rgba(0,0,0,.3);
+    box-shadow: 5px 5px 14px rgba(0,0,0,.3);
 }
 
 
