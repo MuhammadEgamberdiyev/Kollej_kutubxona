@@ -575,6 +575,15 @@ section{
     border-radius: 2px;
 }
 
+.contact .contact-element .contact-contents .bottom-inputs {
+    width: 100%;
+}
+
+.contact .contact-element .contact-contents .bottom-inputs .Email {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
 
 .footer .box-container{
     display: grid;
