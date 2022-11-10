@@ -162,6 +162,7 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
 }
 
 .header .header-2 .navbar{
