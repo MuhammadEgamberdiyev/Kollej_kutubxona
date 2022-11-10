@@ -548,7 +548,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
 }
 
 .contact .contact-element img {
@@ -686,7 +685,6 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 20px;
     }
 
     .contact img {
