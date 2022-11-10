@@ -164,6 +164,7 @@ section{
     align-items: center;
     position: fixed;
     z-index: 10000000;
+    box-shadow: 0 0 10px var(--box-shadow);
 }
 
 .header .header-2 .navbar{
