@@ -682,6 +682,10 @@ section{
 
 @media (max-width:991px){
 
+    .contact {
+        width: auto;
+    }
+
     .contact .contact-element {
         flex-direction: column;
     }
