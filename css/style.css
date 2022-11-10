@@ -693,10 +693,11 @@ section{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
     .contact img {
-        display: none;
+        /* display: none;? */
     }
 
     .contact .contact-element .contact-inputs {
