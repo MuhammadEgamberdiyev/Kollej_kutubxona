@@ -320,6 +320,7 @@ section{
 
 .home .row .books-slider a img{
     height: 25rem;
+    z-index: -1;
 }
 
 .home .row .books-slider a:hover img{
