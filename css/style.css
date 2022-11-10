@@ -571,7 +571,7 @@ section{
 .contact .contact-element .contact-contents .Ism {
     width: 45%;
     padding: 10px 20px;
-    border: 2px solid black;
+    border-bottom: 2px solid black;
     border-radius: 2px;
 }
 
