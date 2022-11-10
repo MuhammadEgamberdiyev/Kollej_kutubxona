@@ -763,9 +763,11 @@ section{
         font-size: 50%;
     }
 
-    /* .bottom-navbar a {
-        font-size: 2rem;
-        padding: 1.1rem;
-    } */
+}
 
+@media (max-width: 368px) {
+    .bottom-navbar a {
+        font-size: 2.2rem;
+        padding: 1rem;
+    }
 }
