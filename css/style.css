@@ -50,7 +50,7 @@ section{
     position: relative;
 }
 
-/* .heading::before{
+.heading::before{
     content: '';
     position: absolute;
     top:50%; left:0;
@@ -59,7 +59,7 @@ section{
     height:.01rem;
     background: rgba(0,0,0,.2);
     z-index: -1;
-} */
+}
 
 .heading span{
     font-size: 3rem;
