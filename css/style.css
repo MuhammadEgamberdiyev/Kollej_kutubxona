@@ -582,6 +582,10 @@ section{
     padding: 10px 20px;
 }
 
+.contact .contact-element .contact-inputs button {
+    padding: 10px 20px;
+}
+
 
 .footer .box-container{
     display: grid;
