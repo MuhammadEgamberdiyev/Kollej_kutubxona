@@ -163,6 +163,7 @@ section{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    z-index: 10000000;
 }
 
 .header .header-2 .navbar{
