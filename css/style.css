@@ -551,6 +551,20 @@ section{
     gap: 100px;
 }
 
+.contact .contact-element .contact-contents {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-element .Ism {
+    width: 40%;
+    height: 25px;
+    border: 1px solid var(--border);
+}
+
 
 .footer .box-container{
     display: grid;
