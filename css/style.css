@@ -580,6 +580,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .contact .contact-element .contact-contents .bottom-inputs input {
