@@ -551,6 +551,10 @@ section{
     gap: 100px;
 }
 
+.contact .contact-element img {
+    width: 40%;
+}
+
 .contact .contact-element .contact-inputs {
     width: 40%;
     height: 80%;
