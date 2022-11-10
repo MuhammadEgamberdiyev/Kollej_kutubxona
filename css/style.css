@@ -551,42 +551,20 @@ section{
     gap: 100px;
 }
 
-.contact .contact-element .contact-contents {
+.contact .contact-element .contact-inputs {
     width: 40%;
-    height: 70%;
+    height: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.contact .contact-element .contact-contents .top-inputs {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.contact .contact-element .contact-contents .Ism {
-    width: 45%;
-    padding: 10px 20px;
-    border-bottom: 2px solid black;
-    border-radius: 2px;
-}
-
-.contact .contact-element .contact-contents .bottom-inputs {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.contact .contact-element .contact-contents .bottom-inputs input {
-    width: 97%;
+.contact .contact-element .contact-inputs input {
+    border: 2px solid black;
     padding: 10px 20px;
-    border-bottom: 2px solid black;
-    border-radius: 2px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 
