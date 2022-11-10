@@ -238,9 +238,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:rgba(255,255,255,.9);
-    position:fixed;
-    top:0; right:-105%;
+    background:rgb(255, 255, 255);
     z-index: 10000;
     height:100%;
     width:100%;
