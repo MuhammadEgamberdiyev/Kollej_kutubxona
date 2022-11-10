@@ -560,8 +560,12 @@ section{
     flex-wrap: wrap;
 }
 
-.contact .contact-element .contact-contents input {
-    width: 90%;
+.contact .contact-contents .contact-contents .top-inputs {
+    width: 100%;
+}
+
+.contact .contact-element .contact-contents .Ism {
+    width: 45%;
     height: 25px;
     border: 2px solid black;
 }
