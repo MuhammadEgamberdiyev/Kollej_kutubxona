@@ -686,7 +686,7 @@ section{
         display: none;
     }
 
-    .contact-inputs {
+    .contact .contact-element .contact-inputs {
         width: 95%;
     }
 
