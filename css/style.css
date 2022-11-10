@@ -715,6 +715,14 @@ section{
         padding:3rem 2rem;
     }
 
+    .header .header-2{
+        display:none;
+    }
+
+    .bottom-navbar{
+        display: block;
+    }
+
 }
 
 @media (max-width:768px){
@@ -725,14 +733,6 @@ section{
 
     body{
         padding-bottom: 6rem;
-    }
-
-    .header .header-2{
-        display:none;
-    }
-
-    .bottom-navbar{
-        display: block;
     }
 
     #search-btn{
