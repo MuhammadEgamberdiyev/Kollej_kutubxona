@@ -153,6 +153,7 @@ section{
 
 .header .header-2{
     background:var(--green);
+    position: sticky;
 }
 
 .header .header-2 .navbar{

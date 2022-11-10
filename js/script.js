@@ -14,29 +14,29 @@ document.querySelector('#close-login-btn').onclick = () =>{
   loginForm.classList.remove('active');
 }
 
-window.onscroll = () =>{
+// window.onscroll = () =>{
 
-  searchForm.classList.remove('active');
+//   searchForm.classList.remove('active');
 
-  if(window.scrollY > 80){
-    document.querySelector('.header .header-2').classList.add('active');
-  }else{
-    document.querySelector('.header .header-2').classList.remove('active');
-  }
+//   if(window.scrollY > 80){
+//     document.querySelector('.header .header-2').classList.add('active');
+//   }else{
+//     document.querySelector('.header .header-2').classList.remove('active');
+//   }
 
-}
+// }
 
-window.onload = () =>{
+// window.onload = () =>{
 
-  if(window.scrollY > 80){
-    document.querySelector('.header .header-2').classList.add('active');
-  }else{
-    document.querySelector('.header .header-2').classList.remove('active');
-  }
+//   if(window.scrollY > 80){
+//     document.querySelector('.header .header-2').classList.add('active');
+//   }else{
+//     document.querySelector('.header .header-2').classList.remove('active');
+//   }
 
-  fadeOut();
+//   fadeOut();
 
-}
+// }
 
 function loader(){
   document.querySelector('.loader-container').classList.add('active');
