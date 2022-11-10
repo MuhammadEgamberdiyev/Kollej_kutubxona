@@ -425,6 +425,10 @@ section{
     gap:1.5rem;
 }
 
+.deal .deal-content-and-images {
+    display: flex;
+}
+
 .deal .deal-content-and-images .content{
     flex:1 1 42rem;
 }
