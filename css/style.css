@@ -691,9 +691,12 @@ section{
 }
 
 .container-about img {
-    width: 70%;
+    width: 100%;
 }
 
+.container-about p {
+    font-size: 23px;
+}
 
 
 
