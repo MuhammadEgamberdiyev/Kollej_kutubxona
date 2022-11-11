@@ -416,7 +416,7 @@ section{
     color:var(--green);
 }
 
-#about {
+.deal .heading {
     padding-top: 60px;
 }
 
