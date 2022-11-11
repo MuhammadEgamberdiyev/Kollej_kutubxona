@@ -639,6 +639,11 @@ section {
     padding: 10px 30px;
 }
 
+.contact .contact-element .contact-inputs input:focus {
+    box-shadow: 0px 0px 5px aqua,
+    0px 0px 10px aqua;
+}
+
 
 
 
