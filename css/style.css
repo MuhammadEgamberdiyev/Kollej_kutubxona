@@ -534,6 +534,7 @@ section{
 .blogs .blogs-slider .box .content h3{
     font-size: 2.2rem;
     color:var(--black);
+    text-align: center;
 }
 
 .blogs .blogs-slider .box .content p{
@@ -541,6 +542,7 @@ section{
     color:var(--light-color);
     padding:1rem 0;
     line-height: 2;
+    text-align: center;
 }
 
 .contact {
