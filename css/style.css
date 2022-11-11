@@ -679,6 +679,15 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.container-about .about-box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container-about img {
