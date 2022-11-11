@@ -422,7 +422,6 @@ section{
     align-items: center;
     flex-direction: column;
     gap: 4rem;
-    width: 85%;
 }
 
 .deal .deal-content-and-images {
