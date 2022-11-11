@@ -504,7 +504,7 @@ section{
 .blogs .blogs-slider .box{
     margin:2rem 0;
     border:var(--border);
-    height: 400px;
+    height: 500px;
 }
 
 .blogs .blogs-slider .box:hover{
