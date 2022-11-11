@@ -762,6 +762,14 @@ section {
         width: 100%;
     }
 
+    .container-about .about-box p {
+        font-size: 17px;
+    }
+
+    .container-about .about-box h1 {
+        font-size: 25px;
+    }
+
     .contact .contact-element .contact-inputs {
         width: 95%;
     }
