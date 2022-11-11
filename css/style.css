@@ -88,6 +88,11 @@ section {
     background: var(--dark-color);
 }
 
+
+
+
+
+
 .header .header-2 .logo {
     font-size: 2.5rem;
     font-weight: bolder;
@@ -183,6 +188,11 @@ section {
     background: var(--dark-color);
 }
 
+
+
+
+
+
 .home {
     background: url(../image/banner-bg.jpg) no-repeat;
     background-size: cover;
@@ -232,6 +242,11 @@ section {
     padding: 1rem 0;
 }
 
+
+
+
+
+
 .icons-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -260,6 +275,11 @@ section {
     font-size: 1.4rem;
     color: var(--light-color);
 }
+
+
+
+
+
 
 .deal {
     background: #fff;
@@ -305,6 +325,57 @@ section {
     font-size: 1.4rem;
     line-height: 2;
 }
+
+
+
+
+.blogs .blogs-slider .box {
+    margin: 2rem 0;
+    border: var(--border);
+}
+
+.blogs .blogs-slider .box:hover {
+    border: var(--border-hover);
+}
+
+.blogs .blogs-slider .box .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.blogs .blogs-slider .box .content {
+    padding: 1.5rem;
+}
+
+.blogs .blogs-slider .box .content h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    text-align: center;
+}
+
+.blogs .blogs-slider .box .content p {
+    font-size: 1.4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 2;
+    text-align: center;
+}
+
+
+
+
+
 
 .featured .featured-slider .box {
     margin: 2rem 0;
@@ -430,6 +501,11 @@ section {
     text-transform: none;
 }
 
+
+
+
+
+
 .arrivals .arrivals-slider .box {
     display: flex;
     align-items: center;
@@ -468,6 +544,11 @@ section {
     font-size: 1.5rem;
     color: var(--green);
 }
+
+
+
+
+
 
 .reviews .reviews-slider .box {
     border: var(--border);
@@ -509,48 +590,10 @@ section {
     color: var(--green);
 }
 
-.blogs .blogs-slider .box {
-    margin: 2rem 0;
-    border: var(--border);
-}
 
-.blogs .blogs-slider .box:hover {
-    border: var(--border-hover);
-}
 
-.blogs .blogs-slider .box .image {
-    height: 25rem;
-    width: 100%;
-    overflow: hidden;
-}
 
-.blogs .blogs-slider .box .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
-.blogs .blogs-slider .box:hover .image img {
-    transform: scale(1.1);
-}
-
-.blogs .blogs-slider .box .content {
-    padding: 1.5rem;
-}
-
-.blogs .blogs-slider .box .content h3 {
-    font-size: 2.2rem;
-    color: var(--black);
-    text-align: center;
-}
-
-.blogs .blogs-slider .box .content p {
-    font-size: 1.4rem;
-    color: var(--light-color);
-    padding: 1rem 0;
-    line-height: 2;
-    text-align: center;
-}
 
 .contact {
     width: 100%;
@@ -595,6 +638,10 @@ section {
 .contact .contact-element .contact-inputs button {
     padding: 10px 30px;
 }
+
+
+
+
 
 
 .footer .box-container {
@@ -663,26 +710,10 @@ section {
     color: var(--green);
 }
 
-.loader-container {
-    position: fixed;
-    top: 0; 
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 10000;
-    background:#f7f7f7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.loader-container.active {
-    display: none;
-}
 
-.loader-container img{
-    height:10rem;
-}
+
+
 
 .container-about {
     width: 100%;
@@ -725,7 +756,7 @@ section {
 
 /* media queries  */
 
-@media (max-width:991px){
+@media (max-width: 991px) {
 
     .container-about .about-box {
         width: 100%;
@@ -735,64 +766,66 @@ section {
         width: 95%;
     }
 
-    html{
+    html {
         font-size: 55%;
     }
 
-    section{
-        padding:3rem 2rem;
+    section {
+        padding: 3rem 2rem;
     }
 
-    .header .header-2{
+    .header .header-2 {
         display:none;
     }
 
-    .bottom-navbar{
+    .bottom-navbar {
         display: block;
     }
 
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
 
-    html{
+    html {
         scroll-padding-top: 0;
     }
 
-    body{
+    body {
         padding-bottom: 6rem;
     }
 
-    .home .row .content{
+    .home .row .content {
         text-align: center;
     }
 
-    .home .row .content h3{
+    .home .row .content h3 {
         font-size: 3.5rem;
     }
 
-    .newsletter{
+    .newsletter {
         background-position: right;
     }
 
-    .newsletter form{
-        margin-left:0;
+    .newsletter form {
+        margin-left: 0;
         max-width: 100%;
     }
 
 }
 
-@media (max-width:450px){
+@media (max-width: 450px) {
 
-    html{
+    html {
         font-size: 50%;
     }
 
 }
 
 @media (max-width: 368px) {
+
     .bottom-navbar a {
         font-size: 2.2rem;
         padding: 1rem;
     }
+
 }
