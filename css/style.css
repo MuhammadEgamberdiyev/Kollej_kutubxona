@@ -416,6 +416,10 @@ section{
     color:var(--green);
 }
 
+#about {
+    padding-top: 60px;
+}
+
 .deal{
     background: #fff;
     display: flex;
