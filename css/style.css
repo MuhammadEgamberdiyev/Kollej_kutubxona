@@ -604,6 +604,7 @@ section {
 
 .contact .aloqa-box {
     width: 250px;
+    width: 100px;
     border: 1px solid var(--border);
 }
 
