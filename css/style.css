@@ -728,14 +728,12 @@ section {
     width: 80%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
     gap: 13px;
 }
 
 .container-about img {
     width: 100%;
-    top: 50px;
 }
 
 .container-about p {
