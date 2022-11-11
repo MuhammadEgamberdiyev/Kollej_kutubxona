@@ -688,6 +688,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 13px;
 }
 
 .container-about img {
@@ -695,7 +696,12 @@ section{
 }
 
 .container-about p {
-    font-size: 23px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.container-about h1 {
+    font-size: 30px;
 }
 
 
