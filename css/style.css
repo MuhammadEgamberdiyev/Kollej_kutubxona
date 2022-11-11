@@ -421,8 +421,8 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 4rem;
+    width: 85%;
 }
 
 .deal .deal-content-and-images {
