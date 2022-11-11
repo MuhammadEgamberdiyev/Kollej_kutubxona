@@ -716,6 +716,10 @@ section{
 
 @media (max-width:991px){
 
+    .container-about .about-box {
+        width: 100%;
+    }
+
     .contact .contact-element .contact-inputs {
         width: 95%;
     }
