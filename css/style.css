@@ -5,7 +5,7 @@
     --dark-color:#219150;
     --black:#444;
     --light-color:#666;
-    --border:.1rem solid rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.2);
     --border-hover:.1rem solid var(--black);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -602,13 +602,62 @@ section {
     flex-direction: column;
 }
 
-.contact .aloqa-box {
-    width: 250px;
-    width: 100px;
-    border: 1px solid black;
+.contact .big-aloqa-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
 }
 
+.contact .aloqa-box {
+    width: 220px;
+    height: 280px;
+    border: 1px solid rgba(0,0,0,.2);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
 
+.contact .aloqa-box:hover {
+    border: var(--border-hover);
+}
+
+.contact .aloqa-box:hover .icon a {
+    transform: translateY(-15px);
+}
+
+.contact .aloqa-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    flex-direction: column;
+}
+
+.contact .aloqa-box .icon {
+    width: 220px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .aloqa-box .icon a {
+    font-size: 70px;
+    color: var(--green);
+}
+
+.contact .aloqa-box h3 {
+    font-size: 25px;
+}
+
+.contact .aloqa-box h4 {
+    font-size: 17px;
+    color: rgba(0,0,0,.5);
+}
 
 
 
