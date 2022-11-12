@@ -664,6 +664,7 @@ section {
 .contact .aloqa-box h5 {
     font-size: 17px;
     color: rgba(0,0,0,.5);
+    text-transform: uppercase;
 }
 
 
