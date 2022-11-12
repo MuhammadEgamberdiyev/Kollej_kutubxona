@@ -674,7 +674,7 @@ section {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     justify-content: center;
-    gap: 1.5rem;
+    gap: 10rem;
 }
 
 .footer .box-container .box h3 {
