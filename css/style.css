@@ -671,9 +671,9 @@ section {
 
 
 .footer .box-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 10rem;
+    gap: 25rem;
 }
 
 .footer .box-container .box h3 {
