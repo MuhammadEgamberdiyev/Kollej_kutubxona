@@ -330,7 +330,7 @@ section {
 
 
 
-.blogs .blogs-slider .box {
+.blogs .blogs-slider a .box {
     margin: 2rem 0;
     border: var(--border);
 }
