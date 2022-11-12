@@ -860,6 +860,10 @@ section {
         font-size: 50%;
     }
 
+    .footer .box-container {
+        gap: 3rem;
+    }
+
 }
 
 @media (max-width: 368px) {
