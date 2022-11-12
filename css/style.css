@@ -783,6 +783,63 @@ section {
 
 
 
+.yangiliklar-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.yangiliklar-container .box {
+    margin: 2rem 0;
+    border: var(--border);
+}
+
+.yangiliklar-container .box:hover {
+    border: var(--border-hover);
+}
+
+.yangiliklar-container .box .image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.yangiliklar-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.yangiliklar-container .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.yangiliklar-container .box .content {
+    padding: 1.5rem;
+}
+
+.yangiliklar-container .box .content h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    text-align: center;
+}
+
+.yangiliklar-container .box .content p {
+    font-size: 1.4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 2;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
