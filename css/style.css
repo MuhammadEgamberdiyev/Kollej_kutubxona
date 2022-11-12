@@ -624,7 +624,6 @@ section {
     height: 280px;
     border: 1px solid rgba(0,0,0,.2);
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -662,7 +661,7 @@ section {
     font-size: 25px;
 }
 
-.contact .aloqa-box h4 {
+.contact .aloqa-box h5 {
     font-size: 17px;
     color: rgba(0,0,0,.5);
 }
