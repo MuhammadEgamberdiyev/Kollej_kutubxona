@@ -692,7 +692,6 @@ section {
     font-size: 1.4rem;
     color: var(--light-color);
     padding: 1rem 0;
-    text-transform: lowercase;
 }
 
 .footer .box-container .box a i {
