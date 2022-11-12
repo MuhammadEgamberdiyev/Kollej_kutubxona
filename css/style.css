@@ -800,19 +800,13 @@ section {
     border: var(--border-hover);
 }
 
-.yangiliklar-container .box .image {
-    height: 25rem;
-    width: 100%;
-    overflow: hidden;
-}
-
 .yangiliklar-container .image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.yangiliklar-container .box:hover .image img {
+.yangiliklar-container .box:hover img {
     transform: scale(1.1);
 }
 
