@@ -852,16 +852,16 @@ section {
         max-width: 100%;
     }
 
+    .footer .box-container {
+        gap: 3rem;
+    }
+
 }
 
 @media (max-width: 450px) {
 
     html {
         font-size: 50%;
-    }
-
-    .footer .box-container {
-        gap: 3rem;
     }
 
 }
