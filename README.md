@@ -1,1 +1,1 @@
-# Istiqlol-kutubxona
+# kollej-kutubxona
